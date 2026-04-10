@@ -12,6 +12,11 @@ body {
     margin: 0;
     padding-top: 92px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+body section {
+    flex: 1;
 }
 h1 {
     margin: 0;
@@ -114,13 +119,6 @@ nav .container {
 
 /* PRESUPUESTO */
 
-body.presupuesto {
-    display: flex;
-    flex-direction: column;
-}
-body.presupuesto section {
-    flex: 1;
-}
 form {
     width: 50%;
     margin: 0 auto;
@@ -162,4 +160,13 @@ form input[type="reset"] {
 }
 .datos p:last-of-type {
     margin-bottom: 0;
+}
+
+
+
+/* CONTACTO */
+
+iframe {
+    max-width: 100%;
+    max-height: 500px;
 }
