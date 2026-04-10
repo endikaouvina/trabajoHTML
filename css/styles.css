@@ -1,3 +1,5 @@
+/* ESTILOS GENERALES */
+
 * {
     box-sizing: border-box;
     line-height: 1.5;
@@ -39,9 +41,34 @@ a:focus-visible {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 section {
     padding: 40px 20px;
 }
+
+
+
+/* HEADER, NAV Y FOOTER */
+
+header,
+nav,
+footer {
+    background-color: #2f4f4f;
+    color: #fff;
+}
+footer,
+nav span {
+    padding: 10px;
+}
+.active {
+    background-color: #62a4a4;
+    color: #000;
+}
+
+
+
+/* INICIO */
+
 .inicio section:nth-child(odd) {
     background-color: #85abff;
 }
@@ -72,20 +99,11 @@ nav .container {
     height: auto;
     border-radius: 10px;
 }
-header,
-nav,
-footer {
-    background-color: #2f4f4f;
-    color: #fff;
-}
-footer,
-nav span {
-    padding: 10px;
-}
-.active {
-    background-color: #62a4a4;
-    color: #000;
-}
+
+
+
+/* PRESUPUESTO */
+
 body.presupuesto {
     display: flex;
     flex-direction: column;
@@ -135,29 +153,3 @@ form input[type="reset"] {
 .datos p:last-of-type {
     margin-bottom: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
